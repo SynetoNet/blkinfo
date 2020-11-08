@@ -35,7 +35,7 @@ ISCSI_TARGET_PATH = SYS_DEV + 'platform/%s/%s/%s/iscsi_connection/%s'  # host, s
 
 DISK_FILTERS = ['name', 'kname', 'fstype', 'label', 'mountpoint', 'size', 'maj:min', 'rm',
                 'model', 'vendor', 'serial', 'hctl', 'tran', 'rota', 'type', 'ro', 'owner',
-                'group', 'mode']
+                'group', 'mode', 'phy-sec']
 
 
 # sometimes we would like to have a range for some parameter
